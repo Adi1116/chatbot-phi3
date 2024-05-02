@@ -3,6 +3,10 @@
 
 # In[3]:
 
+get_ipython().system('pip install streamlit')
+
+# In[2]:
+get_ipython().system('pip install ollama')
 
 import streamlit as st
 import ollama
@@ -45,16 +49,3 @@ def generate_response():
         token = partial_resp["message"]["content"]
         st.session_state["full_message"] += token
         yield token
-
-
-# In[1]:
-
-
-get_ipython().system('pip install streamlit')
-
-
-# In[2]:
-
-
-get_ipython().system('pip install ollama')
-
