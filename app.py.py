@@ -3,10 +3,10 @@
 
 # In[3]:
 
-get_ipython().system('pip install streamlit')
+pip install streamlit
 
 # In[2]:
-get_ipython().system('pip install ollama')
+pip install ollama
 
 import streamlit as st
 import ollama
