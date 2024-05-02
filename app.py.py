@@ -3,10 +3,32 @@
 
 # In[3]:
 
-pip install streamlit
+import subprocess
+
+# Define the command to install Streamlit
+command = "pip install streamlit"
+
+# Execute the command using subprocess
+try:
+    subprocess.check_call(command, shell=True)
+    print("Streamlit installed successfully!")
+except subprocess.CalledProcessError as e:
+    print("Error installing Streamlit:", e)
+
+command_1= "pip install ollama"
+
+# Execute the command using subprocess
+try:
+    subprocess.check_call(command_1, shell=True)
+    print("Ollama installed successfully!")
+except subprocess.CalledProcessError as e:
+    print("Ollama installing Streamlit:", e)
+
+
+#pip install streamlit
 
 # In[2]:
-pip install ollama
+#pip install ollama
 
 import streamlit as st
 import ollama
