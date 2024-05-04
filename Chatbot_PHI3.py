@@ -1,18 +1,18 @@
-import pip
+#import pip
 
 # Define the package to install
-package_name = 'ollama'
+#package_name = 'ollama'
 
 # Install the package
-try:
-    pip.main(['install', package_name])
-    print("Ollama installed successfully!")
-except Exception as e:
-    print("Error installing Ollama:", e)
+#try:
+ #   pip.main(['install', package_name])
+  #  print("Ollama installed successfully!")
+#except Exception as e:
+ #   print("Error installing Ollama:", e)
 
 
-import streamlit as st
-import ollama
+#import streamlit as st
+#import ollama
 
 st.title("Phi3 Chatbot (by Aditya Sharma)")
 
