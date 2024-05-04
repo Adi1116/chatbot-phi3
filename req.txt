@@ -1,2 +1,2 @@
 Ollama
-Subprocess
+Streamlit
