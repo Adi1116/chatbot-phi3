@@ -1,3 +1,16 @@
+import pip
+
+# Define the package to install
+package_name = 'ollama'
+
+# Install the package
+try:
+    pip.main(['install', package_name])
+    print("Ollama installed successfully!")
+except Exception as e:
+    print("Error installing Ollama:", e)
+
+
 import streamlit as st
 import ollama
 
