@@ -1,0 +1,9 @@
+conda create --name envStreamPhi
+conda activate envStreamPhi
+
+ollama pull phi3
+ollama pull nomic-embed-text
+
+streamlit hello
+
+streamlit run e:/Chatbot_PHI3.py 
