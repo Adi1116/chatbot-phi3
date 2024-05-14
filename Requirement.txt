@@ -1,2 +1,3 @@
-Ollama
-Streamlit
+streamlit
+ollama
+random
